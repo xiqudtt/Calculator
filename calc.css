@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .1s ease-in-out;
+    width: 1530px;
+    height: 100%;
+    font-size: 40px;
+    /* добавим плавность переходов для всех элементов страницы*/
+ }
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    font-size: 50px;
+    font-family: 'Silkscreen', sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#input_pole {
+
+    display: inline;
+    border: 1px solid black;
+    text-align: right;
+}
+
+
+.buttons {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Silkscreen', sans-serif;
+
+
+
+}
+
+.js-select-operation,.number,.btn-output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(215, 39, 136, 0.79);
+    border-radius: 10px;
+}
+.js-select-operation:hover,.number:hover,.btn-output:hover{
+    background-color: rgba(237, 72, 243, 0.845);
+}
+.reset-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(215, 39, 136, 0.79);
+    border-radius: 10px;
+}
+#container{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10%;
+    z-index: 2;
+
+}
+.js-output{
+    position: absolute;
+    left: -4.5%;
+    max-width: 550px;
+    height: 90px;
+    text-align: end;
+    background-color: rgba(255,255,255,0.5);
+    opacity: 95%;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 55px;
+    justify-content: center;
+    align-items: right;
+}
+.js-output:hover{
+    background-color: rgba(255, 244, 212, 0.87);
+}
+.background{
+    position: absolute;
+    left: 7%;
+    width: 600px;
+    height: 600px;
+    margin-left: 19.5%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 25px;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.5);
+}
+.buttons-card{
+    position: absolute;
+    top:20%;
+    left:0%;
+}
